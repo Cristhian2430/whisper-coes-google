@@ -26,7 +26,7 @@ RUN curl -L https://huggingface.co/Cristhian2430/whisper-large-coes-v3/resolve/m
     && curl -L https://huggingface.co/Cristhian2430/whisper-large-coes-v3/resolve/main/special_tokens_map.json -o ./model/special_tokens_map.json \
     && curl -L https://huggingface.co/Cristhian2430/whisper-large-coes-v3/resolve/main/preprocessor_config.json -o ./model/preprocessor_config.json
 
-#EXPOSE 8080
+EXPOSE 8080
 
 CMD ["python", "main.py"]
 
