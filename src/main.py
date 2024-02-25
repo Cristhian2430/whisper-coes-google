@@ -23,7 +23,7 @@ device = "cuda:0" if torch.cuda.is_available() else "cpu"
 print("Asigno procesador")
 train_df = pd.DataFrame(columns = ["cont", "audio", "Resultado"])
 print("Definio DataFrame")
-google_credentials = service_account.Credentials.from_service_account_file("whispercoes-4f68b3a61a92.json")
+google_credentials = service_account.Credentials.from_service_account_file(".\whisper-coes-2d46b1614374.json")
 print("Obtuvieron Credenciales")
 storage_client = storage.Client(credentials = google_credentials)
 print("Asignó la variable Credenciales")
@@ -39,7 +39,7 @@ print("Seteo parámetro")
 def main():
     global train_df, storage_client
     print("Conecto a Bucket Google")
-    blobs = storage_client.list_blobs("prueba-coes1")
+    blobs = storage_client.list_blobs("coes-bucket")
     cont = 0
     print("Inicia Bucle en Bucket")
     for blob in blobs:
@@ -54,7 +54,7 @@ def main():
     train_df.to_excel(excel_buffer, index=False)
     excel_buffer.seek(0) 
     print("Se transformó DataFrame en Bytes")
-    bucket = storage_client.bucket("prueba-coes1")
+    bucket = storage_client.bucket("coes-bucket")
     blob = bucket.blob("prueba_whisper.xlsx")
     generation_match_precondition = 0
     print("Se empezará a enviar")
