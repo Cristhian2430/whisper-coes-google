@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "whisper-coes",
+  "private_key_id": "2d46b1614374e9b30e5de06c961d928ffc068b63",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC950QAFh4t5LlM\nFuYPJ1oEvt5Gp63QzPUxz+xpzdQZgz5S0BSNxNF0xkJenbv7VrrEyGfFyTgpzLrh\nkOj/s46hGpOJ4shjaZ8HLtjvZy6bna5dBRueXQUf/fRGmZhPagBDJNm3B3do9qU8\nrt7M3wZf29aKy2MPfUC4R4hUCnCMcFSYDLoN04mXFzxLOHlazRDolNq/MxICFjyQ\nltfr4GET1Mb2o2UAfzr4vapkNrV5tvV3uePDpkYaAtetszOQinPe2JjI8NRgGYEZ\nMZ9rh+p4cqOjN7pPBY8SUKLZsf18a1v88uVY6LgmcLO7hTONUN1cE/UVlcwjTrNC\n8FfHl6CHAgMBAAECggEAD5c/jXRDaQgosFcG70KPUOlsrUdR7V0OWlcUNUGJQsj0\nIm9j6Jm6iohGZac0ijd+IO7FGkdhXYkp5J/1iRywPojEiSL9ya+ft0LA27LQcEU7\nTfa/5DoF1DEQz4UHrKlquRh66VxrEMqDGV7P+ujqiI8vZ3i4OsrRN+/jgObUg6sG\n1lzpx/RKOZX2bAwBXERQifGD0E6RsQu9bvQzw+VBran6mznFPYNccKBb+OFPSBlT\nOwyjY9rgd2gZZEMPAH8C0tfUTZqTbD4QCeXBf9wFd6Bg08g/rKGn/jxJtY150CMq\neVC5X2rAVSHtUBWHHoxy5ecyFvwYw3DqvGH/OhHX9QKBgQD1MBQRMVLCIgfluGMg\nSd/p/3V3C5Es/lpcMy84iv1FnKrxNIwLtMLX6NKGlqs2Mr263DKNVyelDkgtoTy6\n123md/7oU/1nstGIfRGqYCNBVcc2JLQVbLDrrOW4RJjCuyI6xJoj427yTNWwJKtj\nuWedqejQHKHdU4N/Q0FyQO3q5QKBgQDGRxUIpQW0+ojU0xezmK9zdA0nhb9w/Lge\nYAn56sVLnpNIDrkw72dRSrxpkQK/LjQXsLs/2QiwTiWJantP5cOWePiDf2Z4RWSB\nWryqDd3IJml2GTDPi2lUTQUZdJ3vMZ8HXJe3xRHfKu4K2DVeTNSaGoFbukIkK4SW\nTpUOTFnq+wKBgDrFTHoWhYzNFXGF8hTCQG7ZcfGYDzNmwIgLKM1321+9PuhUPSFt\nMasJPrVOFjoGjZ3lvCRO+MzCkKCHXoQ2sTwmFS7hOwOJRFpgCET7iFfX1MlwoM3l\n4L6NEf9KSgebTYgiqgPiNyzTKAFxuLdNsL2FBa4kvtPLeeCeYWiekajVAoGAMhbK\n7YAizPFtl7YsCqbLy/LJT+6tyjFNof7JBmWUqeHJey6dAgu4ogSrTE/hzcIyTrnK\n0/pUA5X6TZikxi5ZFq5AuZd5n3CIT1VIy/zsxh9ODROYDRY+6Zj7bM7VBxQWBJoT\nic0zEpmZwQuVj9kA7F09yJppExIbUI1RgmcvX/kCgYBFKyT5kgBPsq/Q4+KOpn0K\nBSU81tdonvwSPKnI0vOKupSkR/gOu38ZoWJ339EGcHdawjq2V++gNsyys5fNCL/H\n3uRDyGktQGaCmNERwbNhqhcYsSN8boGiQOJUhoq+PUG6KQO8CGOMGru83ljgZJQL\nWlqIkZ8hhb4Djf92+lJ1Pg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "coes-1@whisper-coes.iam.gserviceaccount.com",
+  "client_id": "100116555523203759308",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/coes-1%40whisper-coes.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
